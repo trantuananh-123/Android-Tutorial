@@ -1,0 +1,5 @@
+<resources>
+	<string name = "app_name">Frame Layout</string>
+	<string name = "android">Android</string>
+	<string name = "android_coding">Lập trình android</string>
+</resources>

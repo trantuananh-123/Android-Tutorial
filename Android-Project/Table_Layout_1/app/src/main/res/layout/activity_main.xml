@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:layout_height = "match_parent"
+			 android:layout_width = "match_parent"
+			 android:stretchColumns = "*"
+			 xmlns:android = "http://schemas.android.com/apk/res/android"
+			 xmlns:tools = "http://schemas.android.com/tools"
+			 tools:ignore = "UselessParent">
+
+	<TableRow>
+
+		<TextView
+			android:text = "@string/android_1"
+			android:textSize = "24sp"
+			android:background = "#ff0"
+			android:layout_span = "3"
+			android:gravity = "center" />
+	</TableRow>
+
+	<TableRow>
+
+		<TextView
+			android:text = "@string/android_2"
+			android:textSize = "24sp" />
+
+		<TextView
+			android:text = "@string/android_3"
+			android:textSize = "24sp" />
+	</TableRow>
+
+	<TableRow>
+
+		<TextView
+			android:text = "@string/android_4"
+			android:textSize = "24sp" />
+
+		<TextView
+			android:text = "@string/android_5"
+			android:textSize = "24sp" />
+
+		<TextView
+			android:text = "@string/android_6"
+			android:textSize = "24sp" />
+	</TableRow>
+
+
+</TableLayout>

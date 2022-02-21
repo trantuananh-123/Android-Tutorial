@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:tools = "http://schemas.android.com/tools" android:orientation = "vertical"
+	android:weightSum = "10"
+	android:layout_width = "match_parent"
+	android:layout_height = "match_parent"
+	xmlns:android = "http://schemas.android.com/apk/res/android">
+
+	<TextView
+		android:text = "@string/_1"
+		android:layout_weight = "3"
+		android:textSize = "40sp"
+		android:background = "#FF001E"
+		android:textColor = "#fff"
+		android:gravity = "center"
+		android:layout_width = "match_parent"
+		android:layout_height = "0dp" />
+
+	<LinearLayout
+		android:weightSum = "10"
+		android:layout_weight = "7"
+		android:orientation = "horizontal"
+		android:layout_width = "match_parent"
+		android:layout_height = "0dp"
+		tools:ignore = "NestedWeights">
+
+		<TextView
+			android:text = "@string/_2"
+			android:layout_weight = "3"
+			android:textSize = "40sp"
+			android:background = "#FFF200"
+			android:textColor = "#fff"
+			android:gravity = "center"
+			android:layout_width = "0dp"
+			android:layout_height = "match_parent" />
+
+		<LinearLayout
+			android:weightSum = "10"
+			android:layout_weight = "7"
+			android:orientation = "vertical"
+			android:layout_width = "0dp"
+			android:layout_height = "match_parent"
+			tools:ignore = "NestedWeights">
+
+			<TextView
+				android:text = "@string/_3"
+				android:layout_weight = "6"
+				android:textSize = "40sp"
+				android:background = "#0040FF"
+				android:textColor = "#fff"
+				android:gravity = "center"
+				android:layout_width = "match_parent"
+				android:layout_height = "0dp" />
+
+			<LinearLayout
+				android:weightSum = "10"
+				android:layout_weight = "4"
+				android:orientation = "horizontal"
+				android:layout_width = "match_parent"
+				android:layout_height = "0dp"
+				tools:ignore = "NestedWeights">
+
+				<TextView
+					android:text = "@string/_4"
+					android:layout_weight = "5"
+					android:textSize = "40sp"
+					android:background = "#EF7CDC"
+					android:textColor = "#fff"
+					android:gravity = "center"
+					android:layout_width = "0dp"
+					android:layout_height = "match_parent" />
+
+				<TextView
+					android:text = "@string/_5"
+					android:layout_weight = "5"
+					android:textSize = "40sp"
+					android:background = "#55006C"
+					android:textColor = "#fff"
+					android:gravity = "center"
+					android:layout_width = "0dp"
+					android:layout_height = "match_parent" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

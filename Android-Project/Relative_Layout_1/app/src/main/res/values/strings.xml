@@ -1,0 +1,9 @@
+<resources>
+	<string name = "app_name">Relative_Layout_1</string>
+	<string name = "android_1">Android 1</string>
+	<string name = "android_2">Android 2</string>
+	<string name = "android_3">Android 3</string>
+	<string name = "android_4">Android 4</string>
+	<string name = "android_5">Android 5</string>
+	<string name = "android_6">Android 6</string>
+</resources>
